@@ -1,0 +1,31 @@
+{
+  "name": "bate-papo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabriciocastrosoares/bate-papo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabriciocastrosoares/bate-papo/issues"
+  },
+  "homepage": "https://github.com/fabriciocastrosoares/bate-papo#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
+  }
+}
